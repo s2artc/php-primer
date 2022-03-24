@@ -26,6 +26,7 @@ echo "  Time is ".date('h:m:s a').'<br>';
 ?>
 <button type="button" class="btn btn-success">Click Here for Success</button>
 <button type="button" class="btn btn-warning">Click Here for Warning</button>
+<button type="button" class="btn btn-info">Click Here for Info</button>
 <a class="btn btn-primary" href="testingPHPSnippet.php" role="button" >Click Here for Snippet</a>
 <?php echo 'hi snippet <br>'; 
 $number=34;
