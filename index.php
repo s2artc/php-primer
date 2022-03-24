@@ -29,12 +29,12 @@ echo "  Time is ".date('h:m:s a').'<br>';
 <button type="button" class="btn btn-info">Click Here for Info</button>
 <a class="btn btn-primary" href="testingPHPSnippet.php" role="button" >Click Here for Snippet</a>
 <?php echo 'hi snippet <br>'; 
-$number=34;
+$number=35;
 if ($number>20) {echo $number,' is greater than 20<br>';}
 if ($number==34) {
 	echo $number,' is equal to 34<br>';
 } else {
-	echo 'notequal to 34<br>';
+	echo $number,' is notequal to 34<br>';
 }
 for ($i = 0; $i < 10; $i++) {echo $i * $i;echo '<br>';
 	
